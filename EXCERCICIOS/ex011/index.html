@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em html5</title>
+</head>
+<body>
+    <h1>Imagem Dinâmica</h1>
+    <p>Tente abrir este site em vários dispositivos diferentes ou simplesmente aumente ou diminua o tamanho do seu navegador</p>
+
+    <picture>
+        <source media="(max-width: 750)" srcset="Imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="Imagens/foto-g.png" type="image/png">
+        <img src="Imagens/foto-m.png" alt="Imagem flexível">
+    </picture>
+
+    <p>a tag picture serve para por imagens dimensionaveis</p>
+
+    <h1>Reproduzindo audios</h1>
+
+    <p>Vamos aprender a reproduzir audios em HTML5</p>
+
+<audio src="Midias/Tell Me That I Can't (Clean) - NEFFEX.mp3" controls autoplay></audio>
+
+<p>outro metódo é este abaixo ele é mais completo</p>
+
+<audio preload="metadata" autoplay controls>
+    <source src="Midias/Tell Me That I Can't (Clean) - NEFFEX.mp3" type="audio/mpeg">
+<source src="Midias/Tell Me That I Can't (Clean) - NEFFEX.mp3" type="audio/ogg">
+<source src="Midias/Tell Me That I Can't (Clean) - NEFFEX.mp3" type="audio/wav">
+
+
+</audio>
+<p>Infelizmente seu navegador não consegue reproduzir audios, clique <a href="Midias/Tell Me That I Can't (Clean) - NEFFEX.mp3">aqui</a> para baixar o arquivo</p>
+
+<p>se divirta</p>
+
+
+</body>
+</html>

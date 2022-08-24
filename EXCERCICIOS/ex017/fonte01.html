@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CCS</title>
+    <style>
+        body { /*medidas absolutas (cm centimetro, mm milimitro, in polegada, pt ponto, px pixel, pc paica) sendo ponto e paica medidas usadas na escrita, não é recomendado o uso
+
+            medidas relativas (em medida relativa  ao tamanho atual da fonte, ex relativo a altura x de uma fonte, rem tipo o em mas é relativo ao root, a fonte que esta configurada no body, vw view width que quer dizer a largura da viewport que é a largura da tua tela, vh view height que é a altura, % porcentagem, bem obvio que é porcentagem né) porém basicamente iremos usar o em que é a altura do em maiusculo, para medidas de fonte o recomendado é px e em por exemplo 16px é igual 1em pois 1em é geralmente equivalente a 16px epor isso o recomendado é usar px e em */
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 17px;
+            font-style: normal;
+            text-decoration: dashed;
+            /*weight peso, width largura, height altura*/
+            /*algumas fontes tem alguns pesos literais que são aceito por algumas fontes tipo a work sans os pesos literais são lighter, normal, bold, bolder também existe variações númericas que vao de 100 a 900, mas não é todas que tem */
+            
+        }
+        h2 {
+            font: bold 20px 'verdana';
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com Fontes</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi quos voluptas inventore. Et, beatae nihil! Quas, laboriosam ratione voluptatum aspernatur, repellat commodi illum temporibus perstecto eos earum numquam illum nulla amet perferendis enim tenetur cum Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus neque laboriosam voluptates doloribus voluptatum est tenetur aspernatur doloremque, officia perspiciatis, quia qui quaerat impedit quos vero! Illum qui asperiores voluptatum Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus quisquam ipsa deserunt quidem consectetur delectus obcaecati libero error piciatis totam ipsam ut, itaque reprehenderit.</p>
+    <h2>Subtitulo do Excercicio</h2>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id a quis, voluptatum molestiae laboriosam in repellat non asperiores eaque architecto eos earum numquam illum nulla amet perferendis enim tenetur cum Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus neque laboriosam voluptates doloribus voluptatum est tenetur aspernatur doloremque, officia perspiciatis, quia qui quaerat impedit quos vero! Illum qui asperiores voluptatum Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus quisquam ipsa deserunt quidem consectetur delectus obcaecati libero error tenetur, maiores fugit tempora, nesciunt enim. Excepturi blanditiis pariatur nostrum corrupti eligendi..</p>
+</body>
+</html>
