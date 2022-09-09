@@ -4,20 +4,34 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Teste de Imagem de Fundo</title>
+    <title>fundo fixo de tela e shorthand</title>
     <style>
         body {
             height: 100vh;
-            background-color: black;
+            background: black url(imagens/wallpaper002.jpg) center center no-repeat fixed;
+            
+            background-size: cover;
+
+            /*background-color: black;
             background-image: url(imagens/wallpaper002.jpg);
             background-position: center center;
             background-repeat: no-repeat;
             background-size: cover;
+            background-attachment: fixed;
+
+            shorthand background -> 
+            
+            background: color > image > repeat > [size] > attachment
+            
+            
+            porém o size não funciona por enquanto, então ele tem que ser colocado separado*/
+
+            
         }
         
         main {
             background-color: aliceblue;
-            width: 400px;
+            max-width: 550px;
             padding: 10px;
             margin: auto;
             border: 1px solid darkblue;
@@ -29,7 +43,7 @@
     <main>
         <h1>Teste de Imagem de Fundo</h1>
 
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, odio dicta ipsum magnam corporis voluptatum doloribus eum debitis tenetur, autem nisi quia, vel porro consequuntur illum delectus ab laborum. Quisquam. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus, distinctio quod optio atque est maiores perspiciatis cupiditate obcaecati qui sequi quisquam sed? Tenetur harum delectus odio repellat assumenda nam natus. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis et quam culpa amet ipsum praesentium repudiandae, ex, in rem animi, debitis nostrum eveniet ducimus quos est. Deleniti voluptas recusandae soluta.
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, odio dicta ipsum magnam corporis voluptatum doloribus eum debitis tenetur, autem nisi quia, vel porro consequuntur illum delectus ab laborum. Quisquam. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus, distinctio quod optio atque est maiores perspiciatis cupiditate obcaecati qui sequi quisquam sed? Tenetur harum delectus odio repellat assumenda nam natus. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis et quam culpa amet ipsum praesentium repudiandae, ex, in rem animi, debitis nostrum eveniet ducimus quos est. Deleniti voluptas recusandae soluta.Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, odio dicta ipsum magnam corporis voluptatum doloribus eum debitis tenetur, autem nisi quia, vel porro consequuntur illum delectus ab laborum. Quisquam. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus, distinctio quod optio atque est maiores perspiciatis cupiditate obcaecati qui sequi quisquam sed? Tenetur harum delectus odio repellat assumenda nam natus. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis et quam culpa amet ipsum praesentium repudiandae, ex, in rem animi, debitis nostrum eveniet ducimus quos est. Deleniti voluptas recusandae soluta.Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, odio dicta ipsum magnam corporis voluptatum doloribus eum debitis tenetur, autem nisi quia, vel porro consequuntur illum delectus ab laborum. Quisquam. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus, distinctio quod optio atque est maiores perspiciatis cupiditate obcaecati qui sequi quisquam sed? Tenetur harum delectus odio repellat assumenda nam natus. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis et quam culpa amet ipsum praesentium repudiandae, ex, in rem animi, debitis nostrum eveniet ducimus quos est. Deleniti voluptas recusandae soluta.Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, odio dicta ipsum magnam corporis voluptatum doloribus eum debitis tenetur, autem nisi quia, vel porro consequuntur illum delectus ab laborum. Quisquam. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus, distinctio quod optio atque est maiores perspiciatis cupiditate obcaecati qui sequi quisquam sed? Tenetur harum delectus odio repellat assumenda nam natus. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis et quam culpa amet ipsum praesentium repudiandae, ex, in rem animi, debitis nostrum eveniet ducimus quos est. Deleniti voluptas recusandae soluta.Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, odio dicta ipsum magnam corporis voluptatum doloribus eum debitis tenetur, autem nisi quia, vel porro consequuntur illum delectus ab laborum. Quisquam. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus, distinctio quod optio atque est maiores perspiciatis cupiditate obcaecati qui sequi quisquam sed? Tenetur harum delectus odio repellat assumenda nam natus. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis et quam culpa amet ipsum praesentium repudiandae, ex, in rem animi, debitis nostrum eveniet ducimus quos est. Deleniti voluptas recusandae soluta.vLorem ipsum dolor sit amet consectetur adipisicing elit. Tempore, odio dicta ipsum magnam corporis voluptatum doloribus eum debitis tenetur, autem nisi quia, vel porro consequuntur illum delectus ab laborum. Quisquam. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus, distinctio quod optio atque est maiores perspiciatis cupiditate obcaecati qui sequi quisquam sed? Tenetur harum delectus odio repellat assumenda nam natus. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis et quam culpa amet ipsum praesentium repudiandae, ex, in rem animi, debitis nostrum eveniet ducimus quos est. Deleniti voluptas recusandae soluta.
         </p>
     </main>
 </body>
