@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Excercício de Tabela</title>
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table {
+            width: 500px;
+            border-collapse: collapse;
+        }
+        caption{
+            font-size: 1.6em;
+            font-weight: bolder;
+            padding: 8px;
+        }
+        th, td{
+            border: 1px solid black;
+            padding: 7px;
+        }
+
+        .colunanome , .colunaidade{
+            background-color: aqua;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Como destacar colunas</h1>
+
+
+    <table>
+
+        <colgroup>
+            <col class="colunanome">
+            <col class="colunasexo">
+            <col class="colunaidade">
+            <col class="colunaprofissao">
+        </colgroup>
+
+        <caption>Cadastro</caption>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+        </tr>
+
+        <tr>
+            <td>Ana Maria</td>
+            <td>F</td>
+            <td>27</td>
+            <td>Vereadora</td>
+        </tr>
+
+        <tr>
+            <td>Clóvis Getulhio</td>
+            <td>M</td>
+            <td>27</td>
+            <td>Motorista</td>
+        </tr>
+
+        <tr>
+            <td>Fernando Gomes</td>
+            <td>M</td>
+            <td>73</td>
+            <td>Pescador</td>
+        </tr>
+
+        <tr>
+            <td>Claudia Giglioti</td>
+            <td>F</td>
+            <td>19</td>
+            <td>Frentista</td>
+        </tr>
+
+        <tr>
+            <td>Roberto Nair</td>
+            <td>M</td>
+            <td>32</td>
+            <td>Vendedor</td>
+        </tr>
+
+        <tr>
+            <td>João Cleber</td>
+            <td>M</td>
+            <td>29</td>
+            <td>Dentista</td>
+        </tr>
+
+        <tr>
+            <td>Paula Monteiro</td>
+            <td>F</td>
+            <td>56</td>
+            <td>Jornalista</td>
+        </tr>
+    </table>
+</body>
+</html>
