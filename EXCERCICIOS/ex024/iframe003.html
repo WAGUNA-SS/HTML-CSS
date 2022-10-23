@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de Iframes</title>
+    <style>
+        body {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        iframe {
+            width: 95vw;
+            border: 2px solid black;
+            height: 400px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Faça uma escolha</h1>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus delectus tempore quisquam temporibus saepe, eligendi nisi enim. Esse nam architecto, et itaque deleniti quasi amet tenetur quis blanditiis, eos deserunt?</p>
+
+    <ul>
+        <li><a href="pag001.html" target="frajola">Primeira página</a></li>
+        <li><a href="https://www.cursoemvideo.com/" target="frajola">Segunda página</a></li>
+        <li><a href="#">Terceira página</a></li>
+    </ul>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus delectus tempore quisquam temporibus saepe, eligendi nisi enim. Esse nam architecto, et itaque deleniti quasi amet tenetur quis blanditiis, eos deserunt?</p>
+
+    <iframe src="#" name="frajola">
+        <p>Infelizmente seu navegador não é compativél com esta função</p>
+    </iframe>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus delectus tempore quisquam temporibus saepe, eligendi nisi enim. Esse nam architecto, et itaque deleniti quasi amet tenetur quis blanditiis, eos deserunt?</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus delectus tempore quisquam temporibus saepe, eligendi nisi enim. Esse nam architecto, et itaque deleniti quasi amet tenetur quis blanditiis, eos deserunt?</p>
+
+    <!--note que o iframe tem agora um name, este name serve para que o link seja aberto no iframe e não em outra ou na mesma página-->
+</body>
+</html>
