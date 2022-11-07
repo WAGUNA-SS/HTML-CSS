@@ -14,11 +14,18 @@
 <body>
     <h1>Meu primeiro formulário</h1>
 
-    <form>
-        <p>Nome: <input type="text" name="nome" id="nome"></p>
-        <p>Sobrenome: <input type="text" name="sobrenome" id="sobrenome"></p>
+    <form action="cadastro.php" method="post">
+        <p><label for="inome">Nome:</label> 
+            <input type="text" name="nome" id="inome"></p>
+        <p><label for="isobrenome">Sobrenome:</label> 
+            <input type="text" name="sobrenome" id="isobrenome"></p>
         <p><input type="submit" value="Enviar"></p>
+
         
     </form>
+
+    <!--para desativar o autocomplete a barra negra que sugestiona senhas ou nomes que voce ja escreveu, basta por no form um autocomplete="off" , outra observação, a tag name é mais utíl para html e php e o id é mais utíl para o html e javascript
+    
+    também existe dois método de envios de formulários, o primeiro é o Get e Post , aparentemente atualmente existe mais um método, o dialog mas não sei uito sobre o mesmo, demandarei estudos posteriores, porém de facto o post esconde os dados da barra url, isso não protege os dados 100%, só tira da url mesmo, básicamente o Get vai ser usado quando os dados não forem sensíveis, tipo o nome do cara, peso e essas coisas, isso não são dados sensíveis, outra coisa, o método Get não pode ultrapassar 3 mil bits ou 3 mil letras, também não use o Get em fotos e senhas , essas coisas , neste caso use o post, mais informações entre no curso de html no quarto módulo  e procure métodos GET e POST-->
 </body>
-</html>
+</html
