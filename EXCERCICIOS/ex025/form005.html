@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Teste de Formulário</h1>
+
+    <form action="cadastro.php" method="get">
+
+        <fieldset>
+            <legend>Sexo</legend>
+
+            <input type="radio" name="sexo" id="isxmas"><label for="isxmas">Masculino</label> <br>
+
+            <input type="radio" name="sexo" id="isxfem"><label for="isxfem">Feminino</label>
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Esportes Favoritos</legend>
+
+            <input type="checkbox" name="esbasq" id="iesbasq"><label for="iesbasq">Basquete</label> <br>
+
+            <input type="checkbox" name="esvol" id="iesvol"><label for="iesvol">Volei</label> <br>
+
+            <input type="checkbox" name="esbox" id="iesbox"><label for="iesbox">Boxe</label> <br>
+
+            <input type="checkbox" name="esfut" id="iesfut"><label for="iesfut">Futebol</label> <br>
+
+            <input type="checkbox" name="esnat" id="iesnat"><label for="iesnat">Natação</label> <br>
+
+        </fieldset>    
+            <p>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
+            </p>
+        
+    </form>
+
+    <!-- voce tem que colocar sexo no radio da forma que eu coloquei se não vai ter duas opções marcadas, o botão radio serve para marcar somente uma opção, existe a tag checked também que serve para já deixar ma opão marcada, não funciona na tag radio -->
+
+</body>
+</html>
