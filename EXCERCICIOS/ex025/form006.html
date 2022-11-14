@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Teste de Formulário</h1>
+
+    <form action="cadastro.php" method="post" autocomplete="on">
+
+        <p>
+            <label for="icor">Cor:</label>
+            <input type="color" name="cor" id="icor" value="#00ff02">
+        </p>
+
+        <p>
+            <label for="inivel">Nível de Satisfação:</label>
+            <input type="range" name="nivel" id="inivel" min="1" max="10" value="5">
+        </p>
+
+        <p>
+            <label for="ifoto">Foto do Perfil:</label>
+            <input type="file" name="foto" id="ifoto">
+        </p>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+
+    </form>
+
+    <!-- existe a tag image também além da tag file nos input, a diferença é que o file o cara escolhe a foto, no image quem escolhe é você e necessita de JavaScript , outra coisa muito importante é que quando você vai trabalhar com o controle de envio de arquivo como os citados acima, você tem que usar o método post e não o get -->
+</body>
+</html>
