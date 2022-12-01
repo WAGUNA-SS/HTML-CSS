@@ -6,12 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Media Query</title>
 
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"  rel="stylesheet">
+
     <link rel="stylesheet" href="estilos/style.css">
+
+    <script src="js/clickmenu.js"></script>
 </head>
 <body>
     <header>
         <h1>Meu Site</h1>
-        <menu>
+
+        <i id="burguer" class="material-icons" onclick="clickMenu()" >menu</i>
+
+        <menu id="itensmenu">
             <ul>
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Curiosidade</a></li>
